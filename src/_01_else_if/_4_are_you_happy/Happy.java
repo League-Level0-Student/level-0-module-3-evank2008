@@ -6,7 +6,7 @@ import java.net.URI;
 import javax.swing.JOptionPane;
 public class Happy {
 public static void main(String[] args) {
-	System.out.println(null);
+
 	String input = JOptionPane.showInputDialog("are you happy?");
 	if(input.equals("yes")) {
 		JOptionPane.showMessageDialog(null, "nice");
